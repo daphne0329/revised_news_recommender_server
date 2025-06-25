@@ -8,7 +8,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Load dataset
-df = pd.read_excel("Enhanced_Dataset_OpenAI_Simplified_4.xlsx")
+df = pd.read_excel("Enhanced_Dataset_Openai.xlsx")
 
 topic_mapping = {
     1: "Politics",
